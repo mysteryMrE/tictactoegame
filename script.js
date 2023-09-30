@@ -60,6 +60,7 @@ const ticTacGame = () => {
                 return true;
             }
         }
+        return false;
     }
     
     let xwins=0;
@@ -105,9 +106,9 @@ const ticTacGame = () => {
                 cell.innerText="";
                 cell.classList.remove('filled');
                 cell.classList.remove('winner');
-                who.innerText="X's turn";
             }
         }
+        who.innerText="X's turn";
         drawCheck=0;
         xTurn=true;
         gameover=false;

@@ -1,0 +1,79 @@
+table#game td {
+    width: 12rem;
+    height: 12rem;
+    color: rgb(0, 0, 0);
+    /*border: 1px solid rgb(0, 0, 0);*/
+    margin: 0;
+    text-align: center;
+    font-size:xx-large;
+}
+
+.empty{
+    background-color: rgb(220, 220, 133);
+}
+
+div#ticTacToe{
+    text-align: center;
+}
+
+table#game{
+    margin-top: 20px;
+    border-spacing:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#game td.selected {
+    color: black;
+}
+
+table#game tr:nth-child(1) td {
+    border-bottom: 2px solid black;
+}
+table#game tr:nth-child(1) td:nth-child(1),table#game tr:nth-child(1) td:nth-child(2) {
+    border-right: 2px solid black;
+}
+
+table#game tr:nth-child(2) td {
+    border-bottom: 2px solid black;
+}
+table#game tr:nth-child(2) td:nth-child(1),table#game tr:nth-child(2) td:nth-child(2) {
+    border-right: 2px solid black;
+}
+
+table#game tr:nth-child(3) td:nth-child(1),table#game tr:nth-child(3) td:nth-child(2) {
+    border-right: 2px solid black;
+}
+
+button#reset{
+    margin-top: 40px;
+    width: 200px;
+    height: 100px;
+    font-size: xx-large;
+}
+
+p#who{
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: x-large;
+}
+
+.filled{
+    background-color: white;
+}
+
+.wins{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 40px;
+    width: 50%;
+    align-self: center;
+    float: left;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+
+.winner{
+    background-color: rgb(42, 152, 231);
+}

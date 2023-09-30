@@ -1,18 +1,3 @@
-// 8. Készíts memóriajátékot!
-
-// Element CSS osztályai a classList property-n keresztül érhetőek el
-// classList.add('string') osztály hozzáadása
-// classList.remove('string') osztály eltávolítása
-// classList.toggle('string') osztály hozzáadása ha nincs, eltávolítása, ha van
-// classList.includes('string') igaz, ha az elem rendelkezik a stílusosztállyal
-
-// data attribútumok
-// saját HTML attribútumok, megadás HTML-ben data-* pl. data-id="1"
-// dataset mezőn keresztül érhetőek el
-// element.dataset.id = 1; írás
-// element.dataset.id; olvasás
-// 'id' in element.dataset; attribútom meglétének vizsgálata
-
 const ticTacGame = () => {
 
     const handleClick = event => {

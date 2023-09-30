@@ -41,7 +41,7 @@ const ticTacGame = () => {
             xCounter.innerText=`X wins: ${xwins}`;
             xTurn=!xTurn;
             drawCheck++;
-            if(drawCheck==9){
+            if(drawCheck==9 && !gameover){
                 who.innerText="DRAW";
                 gameover=true;
             }
